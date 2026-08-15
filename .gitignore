@@ -1,0 +1,81 @@
+
+---
+
+## 3) `.gitignore`
+
+For your **Python_Programming GitHub repository**, use this professional Python-specific `.gitignore`:
+
+```gitignore
+# ==============================================================
+# Python_Programming - Git Ignore
+# ==============================================================
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Python cache
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Coverage reports
+.coverage
+.coverage.*
+htmlcov/
+
+# Test reports
+.pytest_cache/
+
+# IDE settings
+.vscode/
+.idea/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Environment / secret files
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# Python profiling
+*.prof
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Model / large generated files
+*.pkl
+*.pickle
+*.joblib
+
+# ==============================================================
+# End
+# ==============================================================
