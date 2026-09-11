@@ -29,7 +29,7 @@ Python source code is stored in a file with the `.py` extension.
 ### Example
 
 ```text
-001_Demo.py
+001_First_Program.py
 ```
 
 ---
@@ -41,13 +41,13 @@ Python programs can be executed using the Python interpreter.
 ### Command
 
 ```bash
-python 001_Demo.py
+python 001_First_Program.py
 ```
 
 On systems where Python 3 is invoked using `python3`:
 
 ```bash
-python3 001_Demo.py
+python3 001_First_Program.py
 ```
 
 ---
@@ -63,6 +63,63 @@ python3 001_Demo.py
 | `#` | Indicates a single-line comment. |
 | Indentation | Defines the block structure of Python code. |
 | `.py` | Extension used for Python source files. |
+
+---
+
+## User Input
+
+The `input()` function is used to accept input from the user during program execution.
+
+### Syntax
+
+```python
+variable = input()
+```
+
+### Example
+
+```python
+print("Enter your name : ")
+Name = input()
+
+print("Hello", Name)
+```
+
+### Input Data Type
+
+By default, the `input()` function returns the value entered by the user as a `str` (string).
+
+### Example
+
+```python
+No = input()
+
+print(type(No))
+```
+
+If the user enters:
+
+```text
+11
+```
+
+the value is treated as:
+
+```text
+"11"
+```
+
+and its data type is:
+
+```text
+<class 'str'>
+```
+
+### Important Point
+
+- `input()` → Accepts input from the user.
+- `input()` → Returns a string (`str`) by default.
+- Type conversion is required when numeric input is needed.
 
 ---
 
@@ -104,6 +161,7 @@ Output
 - Python does not require a `main()` function for a basic program.
 - `print()` is used to display output.
 - `input()` is used to accept user input.
+- By default, `input()` returns a value of type `str`.
 - Python uses indentation to define blocks of code.
 - Python is dynamically typed.
 - Semicolons are generally not required at the end of statements.
@@ -116,11 +174,12 @@ Output
 
 - `.py` → Python source file
 - `print()` → Displays output
-- `input()` → Accepts input
+- `input()` → Accepts user input
+- `input()` → Returns `str` by default
 - `()` → Function call
 - `#` → Single-line comment
 - Indentation → Defines blocks
 - `main()` → Not mandatory for a basic program
 - Typing → Dynamically Typed
 - Interpreter → Executes Python program
-- Command → `python 001_Demo.py`
+- Command → `python 001_First_Program.py`
