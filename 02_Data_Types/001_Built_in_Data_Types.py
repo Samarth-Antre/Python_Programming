@@ -8,110 +8,105 @@
  Author      : Samarth Antre
 ======================================================================
 """
-#---------------------------------------------------------------------
-# Numeric Type
-#---------------------------------------------------------------------
-print("---------------------1) Numeric Data Type ---------------------")
+print("------------------------------------------------------------------")
+print("---------------------1) Numeric Data Type ------------------------")
+print("------------------------------------------------------------------")
+
 X = 11
 Y = 89.90
 Z = 8+6j
 
-print(X)
-print(type(X))
+print("Actual Value of X is : ",X)
+print("Data type of X is : ",type(X))
 
-print(Y)
-print(type(Y))
+print("Actual Value of Y is : ",Y)
+print("Data type of Y is : ",type(Y))
 
-print(Z)
-print(type(Z))
+print("Actual Value of Z is : ",Z)
+print("Data type of Z is : ",type(Z))
 
-#---------------------------------------------------------------------
-# Text Type
-#---------------------------------------------------------------------
+print("------------------------------------------------------------------")
 print("----------------------2) Text Data Type --------------------------")
+print("------------------------------------------------------------------")
 
 Name = "Samarth"
 
-print(Name)
-print(type(Name))
+print("Actual value of Name is : ",Name)
+print("Data type of Name is : ",type(Name))
 
-#---------------------------------------------------------------------
-# Sequence Type
-#---------------------------------------------------------------------
+print("------------------------------------------------------------------")
 print("----------------------3) Sequence Data Type ----------------------")
+print("------------------------------------------------------------------")
 
 Data1 = [11,21,51,101]
 Data2 = (11,21,51,101)
 Data3 = range(1,8,2)
-#       range(start,End,Step)  
 
-print(Data1)
-print(type(Data1))
+print("Actual Values of Data1 is : ",Data1)
+print("Data type of Data1 is : ",type(Data1))
 
-print(Data2)
-print(type(Data2))
+print("Actual Values of Data2 is : ",Data2)
+print("Data type of Data2 is : ",type(Data2))
 
-print(Data3)
-print(type(Data3))
-print(list(Data3))
+print("Actual Values of Data3 is : ",Data3)
+print("Data type of Data3 is : ",type(Data3))
+print("Sequence of given data will be ",list(Data3))
 
-#-------------------------------------------------------------------------
-# Set Type
-#-------------------------------------------------------------------------
+print("------------------------------------------------------------------")
 print("------------------------4) Set Data Type -------------------------")
+print("------------------------------------------------------------------")
 
 Marks = {78,92,75,65}
 
-print(Marks)
-print(type(Marks))
+print("Actual Values of Marks is : ",Marks)
+print("Data type of Marks is : ",type(Marks))
 
-#------------------------------------------------------------------------
-# Mapping Type
-#------------------------------------------------------------------------
+print("------------------------------------------------------------------")
 print("------------------------5) Mapping Data Type ---------------------")
+print("------------------------------------------------------------------")
 
 Students = {"Name" : "Samarth","Age" : 23,"Marks" : 85}
 
-print(Students)
-print(type(Students))
+print("Actual Values of Student is : ",Students)
+print("Data type of Students is : ",type(Students))
 
-#------------------------------------------------------------------------
-# Binary Type
-#------------------------------------------------------------------------
+print("------------------------------------------------------------------")
 print("------------------------6) Binary Data Type-----------------------")
+print("------------------------------------------------------------------")
 
 B1 = b"Hello"
 B2 = bytearray(b"Hello")
 
-print(B1)
-print(type(B1))
+print("Actual value of B1 is : ",B1)
+print("Data type of B1 is : ",type(B1))
 
-print(B2)
-print(type(B2))
+print("Actual value of B2 is : ",B2)
+print("Data type of B2 is : ",type(B2))
 
-#------------------------------------------------------------------------
-# None Type
-#------------------------------------------------------------------------
-print("------------------------7) None Data Type-----------------------")
+print("------------------------------------------------------------------")
+print("------------------------7) None Data Type-------------------------")
+print("------------------------------------------------------------------")
 
 Result = None
 
-print(Result)
-print(type(Result))
+print("Actual value in Result is : ",Result)
+print("Data type of Result is : ",type(Result))
 
-#------------------------------------------------------------------------
-# None Type
-#------------------------------------------------------------------------
-print("------------------------8) Boolean Data Type-----------------------")
+print("------------------------------------------------------------------")
+print("------------------------8) Boolean Data Type----------------------")
+print("------------------------------------------------------------------")
 
 Flag1 = True
 Flag2 = False
 
-print(Flag1)
-print(type(Flag1))
+print("Actual value of Flag1 is : ",Flag1)
+print("Data type of Flag1 is : ",type(Flag1))
 
-print(Flag2)
-print(type(Flag2))
+print("Actual value of Flag2 is : ",Flag2)
+print("Data type of Flag2 is : ",type(Flag2))
+
+print("------------------------------------------------------------------")
+
 
 
 
