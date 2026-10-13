@@ -1,6 +1,6 @@
 """
 ======================================================================
- Program     : 001_Demo.py
+ Program     : 001_First_Program.py
  Topic       : Fundamentals
  Description : Prints "Jay Ganesh..." on the console.
  Language    : Python

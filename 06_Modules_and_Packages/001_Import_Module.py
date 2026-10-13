@@ -12,7 +12,7 @@
 
 import Marvellous
 # import Marvellous as MI
-# from Marvellous import Addition,Substraction
+# from Marvellous import Addition,Subtraction
 # from Marvellous import *
 
 def main():
@@ -25,8 +25,8 @@ def main():
     Ret = Marvellous.Addition(Value1, Value2)
     print("Addition is : ", Ret)
 
-    Ret = Marvellous.Substraction(Value1, Value2)
-    print("Substraction is : ", Ret)
+    Ret = Marvellous.Subtraction(Value1, Value2)
+    print("Subtraction is : ", Ret)
 
 if __name__ == "__main__":
     main()

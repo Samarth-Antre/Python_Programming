@@ -1,6 +1,6 @@
 """
 ======================================================================
- Program     : 003_Data_Type_Functions.py
+ Program     : 002_Data_Type_Inspection.py
  Topic       : Fundamentals - Data Type Functions
  Description : Demonstrates type(), id(), sys.getsizeof(), and len()
                functions in Python.
